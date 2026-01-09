@@ -74,3 +74,100 @@ header {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(70, 145, 101, 0.3);
 }
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.250), rgba(0, 0, 0, 0.250)), url('./Assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    text-align: center;
+    color: white;
+}
+
+.badge span {
+    background: rgba(255,255,255,0.12);
+    padding: 8px 18px;
+    border-radius: 24px;
+    font-size: 13px;
+    border: 1px solid rgba(255,255,255,0.25);
+    display: inline-block;
+    backdrop-filter: blur(4px);
+}
+
+.hero-section h1 {
+    font-size: 56px;
+    font-weight: 800;
+    margin: 25px 0;
+    line-height: 1.1;
+}
+
+.highlight {
+    color: #469165;
+    position: relative;
+    display: inline-block;
+}
+
+.highlight:after {
+    content: '';
+    position: absolute;
+    width: 102%;
+    height: 8px;
+    bottom: 8px;
+    left: -1%;
+    background-color: rgba(70, 145, 101, 0.2);
+    z-index: -1;
+    border-radius: 2px;
+}
+
+.hero-section p {
+    max-width: 700px;
+    margin: 0 auto 35px;
+    color: #cbd5e1;
+    font-size: 18px;
+}
+
+.hero-btns {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    background: #469165;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(70, 145, 101, 0.25);
+}
+
+.btn-primary:hover {
+    background: #3a7a55;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(70, 145, 101, 0.35);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.5);
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-secondary:hover {
+    background: rgba(255,255,255,0.1);
+    border-color: white;
+    transform: translateY(-3px);
+}
