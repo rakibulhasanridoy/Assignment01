@@ -288,3 +288,44 @@ header {
     font-size: 20px;
     flex-shrink: 0;
 }
+.cta-section {
+    padding: 100px 0;
+    background: #f8fafc;
+}
+
+.cta-box {
+    background: #F7F6F2;
+    padding: 70px 50px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.cta-box h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-box p {
+    color: #718096;
+    margin-bottom: 35px;
+    font-size: 17px;
+}
+
+.cta-box .btn-primary {
+    margin: 0 auto 20px;
+}
+
+.sub-text {
+    font-size: 13px !important;
+    color: #a0aec0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sub-text i {
+    margin: 0 5px;
+}
